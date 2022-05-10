@@ -80,10 +80,20 @@ main {
 
 .navi__list__item {
   margin-right: 10rem;
+  transition: 0.5s;
+}
+
+.navi__list__item:hover {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .navi__list__item--login {
   margin-right: 3rem;
+  transition: 0.5s;
+}
+
+.navi__list__item--login:hover {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .material-symbols-outlined {
