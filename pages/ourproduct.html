@@ -4,40 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../styles.css" />
     <title>Our Product</title>
   </head>
   <body>
     <nav class="navi">
-      <div class="navi__right">
+      <div class="d-flex align-items-center justify-content-center">
         <img
           class="navi__logo"
           src="https://picsum.photos/80"
           alt="Company Logo"
         />
 
-        <div>
-          <ul class="navi__list">
+        <div class="d-flex align-items-center justify-content-center">
+          <ul class="d-flex">
             <li>
-              <a class="navi__list__item" href="../index.html">Home</a>
-            </li>
-            <li></li>
-            <li>
-              <a class="navi__list__item" href="./aboutus.html">About Us</a>
+              <a class="navi__list__item" href="./pages/ourproduct.html"
+                >Our Product</a
+              >
             </li>
             <li>
-              <a class="navi__list__item" href="./contact.html">Contact</a>
+              <a class="navi__list__item" href="./pages/aboutus.html"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="navi__list__item" href="./pages/contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
-      <div class="navi__log-container">
-        <ul class="navi__list navi__list--login">
+      <div class="navi__burger-menu">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+      <div class="navi__log-container d-flex">
+        <ul
+          class="d-flex align-items-center justify-content-center navi__list--login"
+        >
           <li>
-            <a class="navi__list__item--login" href="./login.html">LogIn</a>
+            <a class="navi__list__item--login" href="./pages/login.html"
+              >LogIn</a
+            >
           </li>
           <li>
-            <a class="navi__list__item--login" href="./register.html"
+            <a class="navi__list__item--login" href="./pages/register.html"
               >Register</a
             >
           </li>
@@ -45,8 +63,8 @@
       </div>
     </nav>
 
-    <main class="ourproduct">
-      <div class="ourproduct__banner">
+    <main class="d-flex flex-column align-items-center">
+      <div class="ourproduct__banner d-flex flex-column align-items-center">
         <h1>The Best Product ever</h1>
         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
         <img src="https://picsum.photos/1200/400" alt="Product Images" />
@@ -69,7 +87,9 @@
         </div>
       </div>
 
-      <div class="ourproduct__integrations">
+      <div
+        class="ourproduct__integrations d-flex flex-column align-items-center"
+      >
         <h2>Integrations</h2>
         <div class="ourproduct__integrations__list">
           <div>

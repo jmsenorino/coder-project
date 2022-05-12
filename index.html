@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <link
       rel="stylesheet"
@@ -35,15 +41,15 @@
 
     <!-- This is going to stick and stay in the top when you scroll down -->
     <nav class="navi">
-      <div class="navi__right">
+      <div class="d-flex align-items-center justify-content-center">
         <img
           class="navi__logo"
           src="https://picsum.photos/80"
           alt="Company Logo"
         />
 
-        <div>
-          <ul class="navi__list">
+        <div class="d-flex align-items-center justify-content-center">
+          <ul class="d-flex">
             <li>
               <a class="navi__list__item" href="./pages/ourproduct.html"
                 >Our Product</a
@@ -65,8 +71,10 @@
       <div class="navi__burger-menu">
         <span class="material-symbols-outlined"> menu </span>
       </div>
-      <div class="navi__log-container">
-        <ul class="navi__list navi__list--login">
+      <div class="navi__log-container d-flex">
+        <ul
+          class="d-flex align-items-center justify-content-center navi__list--login"
+        >
           <li>
             <a class="navi__list__item--login" href="./pages/login.html"
               >LogIn</a
@@ -81,14 +89,16 @@
       </div>
     </nav>
 
-    <main class="main">
+    <main class="d-flex main">
       <div class="main__title">
         <h2>Know about the Company</h2>
         <h1>First company ever to be this cool</h1>
       </div>
 
       <!-- Company Stats -->
-      <section class="main__company-stats">
+      <section
+        class="main__company-stats d-flex align-items-center justify-content-center"
+      >
         <div>
           <img src="./images/calendar.png" />
           <h2>Over 10 years in buisness</h2>
@@ -103,7 +113,7 @@
         </div>
       </section>
 
-      <section class="main__product">
+      <section class="main__product d-flex">
         <!-- Product 1 -->
         <div class="main__product__unit mpu-reverse">
           <!-- Img on Left, text on Right -->
