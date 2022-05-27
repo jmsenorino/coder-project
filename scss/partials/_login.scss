@@ -15,26 +15,26 @@
   width: 25%;
   align-items: center;
   padding: 1rem;
-}
 
-.loginleft__input {
-  height: 36px;
-  width: 90%;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  border-radius: 4px;
-  border: 1px solid rgb(137, 151, 155);
-  outline: none;
-}
+  &__input {
+    height: 36px;
+    width: 90%;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid rgb(137, 151, 155);
+    outline: none;
+  }
 
-.loginleft__button {
-  height: 32px;
-  width: 90px;
-  font-size: 15px;
-  margin-top: 20px;
-  border-radius: 4px;
-  background-color: rgb(207, 207, 207);
-  margin-left: 1rem;
+  &__button {
+    height: 32px;
+    width: 90px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(207, 207, 207);
+    margin-left: 1rem;
+  }
 }
 
 .loginright {
@@ -45,14 +45,14 @@
   width: 75%;
   color: #f2f2f2;
   padding: 2rem;
-}
 
-.loginright a {
-  text-decoration: underline;
-  color: #f2f2f2;
-}
+  a {
+    text-decoration: underline;
+    color: #f2f2f2;
+  }
 
-.loginright p {
-  margin-top: 1rem;
-  margin-bottom: 10px;
+  p {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+  }
 }

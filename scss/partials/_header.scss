@@ -17,27 +17,27 @@ main {
 
 .video {
   position: relative;
-}
 
-.video__container iframe {
-  height: 56vw;
-  min-height: 100%;
-  min-width: 100%;
-  pointer-events: none;
-  border: none;
-}
+  &__container iframe {
+    height: 56vw;
+    min-height: 100%;
+    min-width: 100%;
+    pointer-events: none;
+    border: none;
+  }
 
-.video__title {
-  position: absolute;
-  color: white;
-  text-transform: uppercase;
-  width: 100%;
-  top: 0;
-  height: 100%;
-  max-height: 720px;
-  display: flex;
-  padding-left: 20px;
-  justify-content: start;
-  align-items: center;
-  margin-left: 2rem;
+  &__title {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    max-height: 720px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 2rem;
+  }
 }

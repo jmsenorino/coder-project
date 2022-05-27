@@ -1,38 +1,40 @@
-.ourproduct__banner {
-  margin-top: 3rem;
-}
+.ourproduct {
+  &__banner {
+    margin-top: 3rem;
 
-.ourproduct__banner h1 {
-  margin-bottom: 1rem;
-}
+    h1 {
+      margin-bottom: 1rem;
+    }
 
-.ourproduct__banner img {
-  margin-top: 1rem;
-}
+    img {
+      margin-top: 1rem;
+    }
+  }
 
-.ourproduct__integrations {
-  margin-bottom: 4rem;
-}
+  &__integrations {
+    margin-bottom: 4rem;
 
-.ourproduct__integrations h1 {
-  width: 100%;
-}
+    h1 {
+      width: 100%;
+    }
 
-.ourproduct__integrations__list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 1rem;
-}
+    &__list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 1rem;
+    }
 
-.ourproduct__integrations__check {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 300px;
-  margin-left: 1rem;
-}
+    &__check {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 300px;
+      margin-left: 1rem;
 
-.ourproduct__integrations__check img {
-  width: 20px;
+      img {
+        width: 20px;
+      }
+    }
+  }
 }

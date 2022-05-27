@@ -5,36 +5,36 @@
   align-items: center;
   padding: 1rem;
   justify-content: space-around;
-}
 
-.footer a {
-  color: #f2f2f2;
-  margin-left: 1rem;
-}
+  &__logo {
+    display: flex;
+    height: 350px;
+    align-items: center;
+  }
 
-.footer__logo {
-  display: flex;
-  height: 350px;
-  align-items: center;
-}
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
 
-.footer__nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 300px;
-}
+    li {
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+  }
 
-.footer__nav li {
-  margin-top: 2rem;
-  font-size: 1rem;
-}
+  a {
+    color: #f2f2f2;
+    margin-left: 1rem;
+  }
 
-.footer__social-media img {
-  height: 50px;
-  width: 50px;
-}
+  &__social-media img {
+    height: 50px;
+    width: 50px;
+  }
 
-.footer__social-media a {
-  margin-right: 1rem;
+  &__social-media a {
+    margin-right: 1rem;
+  }
 }
