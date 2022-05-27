@@ -319,6 +319,10 @@ main {
   text-align: center;
 }
 
+.main__product__unit img {
+  height: 300px;
+}
+
 @keyframes scale {
   0% {
     transform: scale(1);
