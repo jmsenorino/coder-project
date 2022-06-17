@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
-
-    <title>LogIn</title>
+    <title>Log In</title>
   </head>
+
   <body>
     <nav class="navi">
-      <div class="navi__right">
+      <div class="d-flex align-items-center justify-content-center">
         <img
           class="navi__logo"
-          src="https://picsum.photos/80"
+          src="../images/company-logo.png"
           alt="Company Logo"
         />
 
-        <div>
-          <ul class="navi__list">
+        <div class="d-flex align-items-center justify-content-center">
+          <ul class="d-flex">
+            <li>
+              <a class="navi__list__item" href="../index.html">Home</a>
+            </li>
             <li>
               <a class="navi__list__item" href="./ourproduct.html"
                 >Our Product</a
@@ -33,8 +42,13 @@
           </ul>
         </div>
       </div>
-      <div class="navi__log-container">
-        <ul class="navi__list navi__list--login">
+      <div class="navi__burger-menu">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+      <div class="navi__log-container d-flex">
+        <ul
+          class="d-flex align-items-center justify-content-center navi__list--login"
+        >
           <li>
             <a class="navi__list__item--login" href="./login.html">LogIn</a>
           </li>
@@ -50,7 +64,7 @@
     <main class="loginmain">
       <section class="loginleft">
         <div>
-          <h1>Log in to your account</h1>
+          <h1>Inicia sesión en tu cuenta</h1>
         </div>
         <form>
           <div>
@@ -78,14 +92,14 @@
       <aside class="loginright">
         <div>
           <div>
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <h2>Únete a nosotros!</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-              sint, quo nisi minus placeat ea!
+              Conocé todos los beneficios que te brinda Drixit Technologies a
+              travez de nuestra subscripción de noticias por mail!
             </p>
           </div>
           <div>
-            <a href="./register.html">Register Now</a>
+            <a href="./register.html">Registrate ahora</a>
           </div>
         </div>
       </aside>
@@ -93,8 +107,8 @@
 
     <footer class="footer">
       <div class="footer__logo">
-        <a href="./index.html">
-          <img src="https://picsum.photos/300" alt="Company Logo" />
+        <a href="../index.html">
+          <img src="../images/company-logo.png" alt="Company Logo" />
         </a>
       </div>
       <nav class="footer__nav">

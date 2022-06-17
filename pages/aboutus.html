@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>About Us</title>
   </head>
   <body>
     <nav class="navi">
-      <div class="navi__right">
+      <div class="d-flex align-items-center justify-content-center">
         <img
           class="navi__logo"
-          src="https://picsum.photos/80"
+          src="../images/company-logo.png"
           alt="Company Logo"
         />
 
-        <div>
-          <ul class="navi__list">
+        <div class="d-flex align-items-center justify-content-center">
+          <ul class="d-flex">
             <li>
               <a class="navi__list__item" href="../index.html">Home</a>
             </li>
@@ -32,8 +38,13 @@
           </ul>
         </div>
       </div>
-      <div class="navi__log-container">
-        <ul class="navi__list navi__list--login">
+      <div class="navi__burger-menu">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+      <div class="navi__log-container d-flex">
+        <ul
+          class="d-flex align-items-center justify-content-center navi__list--login"
+        >
           <li>
             <a class="navi__list__item--login" href="./login.html">LogIn</a>
           </li>
@@ -49,36 +60,34 @@
     <main class="aboutus">
       <div class="aboutus__location">
         <h3>Location</h3>
+        <p>Nicaragua 5709 3piso CABA, Argentina</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, illo?
+          Rua dos Piquirões 40 - sala 312, São José dos Campos, São Paulo,
+          Brasil
         </p>
       </div>
       <div>
         <h3>About our Company</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vitae
-          laboriosam ex et amet quaerat suscipit impedit, nulla praesentium,
-          iure maxime minima blanditiis, ipsam magnam explicabo neque deserunt.
-          Officia laborum dolorem quasi molestiae, voluptatibus id fuga magnam
-          cupiditate recusandae quos ratione provident excepturi dolor quisquam
-          dolores deleniti atque, autem quas ipsum, sint at? Assumenda quibusdam
-          facere, nobis blanditiis ea sint?
+          Drixit Technologies revoluciona los entornos industriales,
+          digitalizando y automatizando el mundo físico para garantizar entornos
+          laborales más seguros y alcanzar la excelencia operativa.
         </p>
       </div>
       <div>
         <h3>How to reach us</h3>
         <p>email@mail.com</p>
         <h4>Argentina:</h4>
-        <p>phone-number 1</p>
+        <p>+54 011 1234-1234</p>
         <h4>Brasil:</h4>
-        <p>phone-number 2</p>
+        <p>+55 11 12345-1234</p>
       </div>
     </main>
 
     <footer class="footer">
       <div class="footer__logo">
-        <a href="./index.html">
-          <img src="https://picsum.photos/300" alt="Company Logo" />
+        <a href="../index.html">
+          <img src="../images/company-logo.png" alt="Company Logo" />
         </a>
       </div>
       <nav class="footer__nav">

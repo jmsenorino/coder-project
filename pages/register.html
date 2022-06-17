@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
-
     <title>Register</title>
   </head>
+
   <body>
     <nav class="navi">
-      <div class="navi__right">
+      <div class="d-flex align-items-center justify-content-center">
         <img
           class="navi__logo"
-          src="https://picsum.photos/80"
+          src="../images/company-logo.png"
           alt="Company Logo"
         />
 
-        <div>
-          <ul class="navi__list">
+        <div class="d-flex align-items-center justify-content-center">
+          <ul class="d-flex">
+            <li>
+              <a class="navi__list__item" href="../index.html">Home</a>
+            </li>
             <li>
               <a class="navi__list__item" href="./ourproduct.html"
                 >Our Product</a
@@ -33,8 +42,13 @@
           </ul>
         </div>
       </div>
-      <div class="navi__log-container">
-        <ul class="navi__list navi__list--login">
+      <div class="navi__burger-menu">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+      <div class="navi__log-container d-flex">
+        <ul
+          class="d-flex align-items-center justify-content-center navi__list--login"
+        >
           <li>
             <a class="navi__list__item--login" href="./login.html">LogIn</a>
           </li>
@@ -50,13 +64,24 @@
     <main class="register">
       <section class="register__text">
         <div class="register__text__container">
-          <h1>This is why you should register</h1>
-          <h3>For real, please register because we need your data</h3>
+          <h1>¿Por qué deberías unirte a nosotros?</h1>
+          <h3>
+            Registrate para recibir toda la información y novedades de la
+            compañía
+          </h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-            facilis dignissimos neque unde sequi quam aliquid? Facere, libero
-            praesentium. Dolore ducimus error deleniti provident veritatis
-            impedit accusantium obcaecati illo nemo?
+            - Cuenta con mapas e información de la operación en tiempo real.
+            Entienda con el mapa histórico qué sucedió y por qué.
+          </p>
+          <p>
+            - Reacciona más rápido ante accidentes o comportamientos
+            inseguros<br />En casos de accidentes, el tiempo puede salvar vidas.
+            Recibe alertas para agilizar la reacción.
+          </p>
+          <p>
+            - Intégrate con tus plataformas y sensores ya utilizadas<br />
+            Potencia tus procesos integrando todos tus sensores e interfaces
+            APIs a nuestra plataforma.
           </p>
         </div>
       </section>
@@ -135,8 +160,8 @@
 
     <footer class="footer">
       <div class="footer__logo">
-        <a href="./index.html">
-          <img src="https://picsum.photos/300" alt="Company Logo" />
+        <a href="../index.html">
+          <img src="../images/company-logo.png" alt="Company Logo" />
         </a>
       </div>
       <nav class="footer__nav">

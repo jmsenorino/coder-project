@@ -8,8 +8,12 @@
 
   &__logo {
     display: flex;
-    height: 350px;
-    align-items: center;
+    width: 300px;
+    align-items: stretch;
+
+    img {
+      width: 230px;
+    }
   }
 
   &__nav {

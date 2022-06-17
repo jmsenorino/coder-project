@@ -10,6 +10,7 @@
 
   .navi__logo {
     margin-right: 1rem;
+    width: 50px;
   }
 
   .navi__list__item {
@@ -53,9 +54,26 @@
     padding: 1rem;
   }
 
-  .main__product__unit p {
-    width: auto;
-    margin-bottom: 0.5rem;
+  .main__product__unit {
+    display: flex;
+    flex-direction: column;
+    p {
+      width: auto;
+      margin-bottom: 0.5rem;
+    }
+    img {
+      margin-top: 3.6rem;
+      margin-bottom: 2.2rem;
+    }
+  }
+
+  .ourproduct__banner {
+    h1 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 25px;
+    }
   }
 }
 

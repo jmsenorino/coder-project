@@ -1,6 +1,7 @@
 .main {
   flex-direction: column;
   margin-top: 2rem;
+  background-color: white;
 
   &__title {
     display: flex;
@@ -52,6 +53,7 @@
       p {
         width: 600px;
         text-align: center;
+        margin-left: 2.2rem;
       }
 
       h2 {
