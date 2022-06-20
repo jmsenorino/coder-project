@@ -1,8 +1,11 @@
 .register {
-  display: flex;
-  height: 700px;
-  justify-content: space-between;
-  margin-top: 2rem;
+  &__container {
+    min-height: 600px;
+
+    input {
+      padding-left: 10px;
+    }
+  }
 
   &__text {
     width: 70%;
@@ -52,7 +55,6 @@
 
   &__button {
     height: 32px;
-    width: 350px;
     font-size: 15px;
     margin-top: 20px;
     border-radius: 4px;

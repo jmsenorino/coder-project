@@ -5,6 +5,7 @@
   align-items: center;
   padding: 1rem;
   justify-content: space-around;
+  margin-top: auto;
 
   &__logo {
     display: flex;
@@ -12,7 +13,8 @@
     align-items: stretch;
 
     img {
-      width: 230px;
+      width: 100%;
+      max-width: 230px;
     }
   }
 

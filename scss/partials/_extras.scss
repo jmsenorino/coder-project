@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .video__title {
     width: 80%;
   }
@@ -9,19 +9,21 @@
   }
 
   .navi__logo {
-    margin-right: 1rem;
     width: 50px;
+    margin-right: 1rem;
   }
 
   .navi__list__item {
     margin-right: 1rem;
-    text-align: center;
+
     font-size: 15px;
+    text-align: center;
   }
 
   .navi__list__item--login {
-    font-size: 15px;
     margin-right: 1rem;
+
+    font-size: 15px;
   }
 
   .main__title h1 {
@@ -36,22 +38,24 @@
 
   .main__company-stats h2 {
     font-size: 18px;
-    max-width: 80%;
     text-align: center;
   }
 
   .main__product {
-    padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    padding: 1rem;
   }
 
   .main__product__unit-text {
-    @include flexCenter;
     flex-direction: column;
-    text-align: center;
+
     max-width: 60%;
     padding: 1rem;
+
+    text-align: center;
+
+    @include flexCenter;
   }
 
   .main__product__unit {
@@ -59,7 +63,8 @@
     flex-direction: column;
     p {
       width: auto;
-      margin-bottom: 0.5rem;
+      margin: 0;
+      margin-bottom: .5rem;
     }
     img {
       margin-top: 3.6rem;
@@ -67,12 +72,20 @@
     }
   }
 
-  .ourproduct__banner {
-    h1 {
-      font-size: 30px;
+  .ourproduct {
+    &__banner {
+      h1 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+      img {
+        width: 100%;
+      }
     }
-    h3 {
-      font-size: 25px;
+    &__integrations__check {
+      display: none;
     }
   }
 }
@@ -106,12 +119,13 @@
   }
 
   .navi__logo {
-    margin: 0px;
+    margin: 0;
     margin-left: 10px;
   }
 
   .navi__burger-menu {
     display: flex;
+
     margin-right: 30px;
   }
 
@@ -125,87 +139,84 @@
 
   .main__company-stats {
     flex-direction: column;
+
     margin-bottom: 0;
   }
 
   .main__company-stats div {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 1rem;
+    flex-direction: column;
     justify-content: space-between;
+
+    margin-bottom: 1rem;
   }
 
   .main__company-stats h2 {
     font-size: 15px;
-    max-width: 50%;
-    text-align: right;
   }
 
   .main__product {
-    padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    padding: 1rem;
   }
 
   .main__product__unit {
     flex-direction: column;
+
     margin-bottom: 1.5rem;
   }
 
   .main__product__unit p {
     width: auto;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
   }
 
   .main__product__unit-text {
     display: flex;
     flex-direction: column;
-    text-align: center;
+
     max-width: 80%;
+
+    text-align: center;
   }
 
   .mpu-reverse {
     flex-direction: column-reverse;
   }
+  .footer {
+    &__logo {
+      overflow: hidden;
 
-  .footer__logo {
-    max-height: 200px;
-    max-width: 200px;
-    overflow: hidden;
-  }
+      max-width: 200px;
+      max-height: 200px;
 
-  .footer__logo img {
-    object-fit: fill;
-  }
+      img {
+        object-fit: fill;
+      }
+    }
 
-  .footer__nav {
-    margin-left: 1rem;
-    min-height: 200px;
-  }
+    &__nav {
+      min-height: 200px;
+      margin-left: 1rem;
 
-  .footer__nav li {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
+      li {
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+    }
 
-  .footer__social-media {
-    display: flex;
-  }
+    &__social-media {
+      display: flex;
 
-  .footer__social-media img {
-    width: 25px;
-    height: 25px;
-  }
+      img {
+        width: 25px;
+        height: 25px;
+      }
 
-  .footer__social-media a {
-    margin-right: 0.2rem;
-  }
-
-  .contact__text {
-    width: 90%;
-  }
-
-  .contact__input {
-    width: 90%;
+      a {
+        margin-right: .2rem;
+      }
+    }
   }
 }
