@@ -10,8 +10,10 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "css": "node-sass ./scss/styles.scss -o css",
-    "css:watch": "npm run css && node-sass ./scss/styles.scss -wo css",
-    "cssw": "npm run css:watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "css-b": "npm run build-css",
+    "css-w": "npm run watch-css"
   }
 }
