@@ -12,8 +12,6 @@
   "scripts": {
     "css": "node-sass ./scss/styles.scss -o css",
     "css:watch": "npm run css && node-sass ./scss/styles.scss -wo css",
-    "cssw": "npm run css:watch",
-    "build": "CI=false rescripts build",
-    "build-win": "set CI=false&&rescripts build"
+    "cssw": "npm run css:watch"
   }
 }
